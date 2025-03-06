@@ -1,3 +1,4 @@
 gcloud container clusters create my-gke-cluster \
 	--zone us-central1-a \
-	--num-node 3
+	--num-nodes 3 \
+	--machine-type e2-small
